@@ -157,3 +157,24 @@ main{
     font-weight: 600;
     margin-top: 24px;
 }
+/* Quote Section Styles */
+.quote{
+    background-color: #ffffff;
+    border: 1px solid #C6E4D6;
+    border-radius: 16px;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 22px 20px;
+}
+.quote-container{
+    margin: 48px 24px;
+}
+.quote-desc{
+    color: rgba(14, 14, 14, 0.8);
+}
+.quote-speaker{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
