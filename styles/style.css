@@ -254,3 +254,36 @@ table td select option{
 .news-content-btn{
     padding: 13px 26px;
 }
+/* Donate Section Styles */
+.donate-desc{
+    margin: 24px 0 32px 0;
+    text-align: center;
+}
+.donate-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+}
+.donate-box h1{
+    padding: 40px;
+    border: 1px solid #C6E4D6;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.donate-container input{
+    display: block;
+    width: 65%;
+    text-align: center;
+    margin: 32px auto;
+    padding: 20px;
+    background-color: #ffffffc4;
+    border: none;
+    border-bottom: 1px solid #C6E4D6;
+}
+.donate-btn{
+    display: block;
+    padding: 17px 34px;
+    margin: 0 auto;
+}
