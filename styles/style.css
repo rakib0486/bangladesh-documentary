@@ -197,7 +197,7 @@ main{
     background-color: #ffffff;
     border: 1px solid #C6E4D6;
     border-radius: 16px;
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: 22px 20px;
     margin-bottom: 80px;
