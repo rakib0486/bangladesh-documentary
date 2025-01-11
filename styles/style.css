@@ -52,6 +52,12 @@ nav{
     font-weight: 600;
     margin-right: 160px;
 }
+.nav-button:hover{
+    background-color: #006A50;
+    color: #ffffff;
+    box-shadow: 2px 3px 5px 0 #0e0e0e;
+    cursor: pointer;
+}
 /* Banner Styles */
 .banner{
     display: flex;
@@ -74,6 +80,12 @@ nav{
 }
 .banner-btn{
     padding: 17px 34px;
+}
+.banner-btn:hover{
+    background-color: white;
+    color: lightgreen;
+    cursor: pointer;
+    box-shadow: 2px 3px 5px 0 #0e0e0e45;
 }
 /* Main Section Styles */
 main{
@@ -142,6 +154,12 @@ main{
     font-weight: 600;
     margin-top: 24px;
 }
+.vision-item1 button:hover{
+    background-color: white;
+    color: blueviolet;
+    font-weight: bold;
+    cursor: pointer;
+}
 .vision-item2 button{
     background-color: #09A15C;
     color: #ffffff;
@@ -152,6 +170,12 @@ main{
     font-weight: 600;
     margin-top: 24px;
 }
+.vision-item2 button:hover{
+    background-color: white;
+    color: greenyellow;
+    font-weight: bold;
+    cursor: pointer;
+}
 .vision-item3 button{
     background-color: #FFC239;
     color: #ffffff;
@@ -161,6 +185,12 @@ main{
     font-size: 16px;
     font-weight: 600;
     margin-top: 24px;
+}
+.vision-item3 button:hover{
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+    cursor: pointer;
 }
 /* Quote Section Styles */
 .quote{
@@ -254,6 +284,12 @@ table td select option{
 .news-content-btn{
     padding: 13px 26px;
 }
+.news-content-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+    border: 1px solid blueviolet;
+}
 /* Donate Section Styles */
 .donate-desc{
     margin: 24px 0 32px 0;
@@ -272,6 +308,11 @@ table td select option{
     border-radius: 16px;
     background-color: #ffffff;
 }
+.donate-box h1:hover{
+    background-color: black;
+    cursor: pointer;
+    color: #C6E4D6;
+}
 .donate-container input{
     display: block;
     width: 65%;
@@ -286,6 +327,11 @@ table td select option{
     display: block;
     padding: 17px 34px;
     margin: 0 auto;
+}
+.donate-btn:hover{
+    background-color: black;
+    cursor: pointer;
+    font-size: 20px;
 }
 /* Footer Section Styles */
 footer{
@@ -325,4 +371,25 @@ footer{
     padding: 17px 34px;
     border: none;
     border-radius: 0px 8px 8px 0;
+}
+.newsletter-btn:hover{
+    background-color: rgba(84, 144, 245, 1);
+    color: black;
+    cursor: pointer;
+}
+/* Footer Section Styles */
+.footer-container{
+    padding: 50px 160px;
+    text-align: center;
+}
+.footer-logo{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.footer-link{
+    margin-top: 32px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
